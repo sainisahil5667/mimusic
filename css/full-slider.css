@@ -1,0 +1,799 @@
+/*!
+ * Start Bootstrap - Full Slider (https://startbootstrap.com/template-overviews/full-slider)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full-slider/blob/master/LICENSE)
+ */
+
+
+body{
+	margin:0px;
+	padding:0px;
+	 font-family: 'Barlow', sans-serif;
+
+}
+
+.fixed-top {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color:#fff;
+}
+
+.collapse.navbar-collapse{
+	 font-size:16px;	
+}
+
+li.nav-item {
+    padding-right: 10px;
+}
+
+.carousel-caption h1{
+	font-size:60px;
+}
+.carousel-caption p{
+	font-size:18px;
+	
+}
+
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom:50px;
+    left: 0px;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+
+
+}
+
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 30%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+	text-align:left;
+
+
+}
+
+.carousel-caption-blog{
+    position: absolute;
+    right: 15%;
+    bottom: 15%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+	text-align:center;
+	font-weight:bold;
+
+
+}
+
+
+button.chng{
+	background:transparent;
+	color:white;
+	border: 2px solid white;
+	padding:15px;
+}
+
+.tckts-blog button{
+	background:#032c9e;
+	color:white;
+	padding:15px;
+	margin-top:20px;
+	font-weight:bold;
+	
+}
+
+.slider_ply_btn .fa.fa-play-circle-o{
+	cursor:pointer;
+	margin-left:20px;
+	margin-right:5px;
+	font-size:60px;
+	
+}
+
+.fa.fa-play-circle-o{
+	cursor:pointer;
+	margin-left:5px;
+	margin-right:5px;
+	font-size:24px;
+    margin-right:10px;
+
+}
+.tckts, .slider_ply_btn, .btn_txt{
+	float:left;
+}
+
+.tckts{
+	text-align:center;
+}
+
+.btn_txt{
+   padding-top:20px;
+}
+
+.main-heading{ display: inline-block; padding: 50px 0 20px;}
+.main-heading h2{ position: relative; padding: 0 28px; display: inline-block; font-weight: 300; margin: 0 0 40px;} 
+.main-heading h2::after{ content: "::"; position: absolute; top: 0;}
+.main-heading-holder{text-align:center;}
+.mimusic h2{ line-height: 20px; font-weight: bold; padding-top:50px; padding-bottom:20px; font-size:40px;}
+.mimusic{padding:30px 0;}
+
+
+
+.live_update{
+		margin-bottom:15px;
+	
+}
+
+.live_concert{
+	position:relative;
+  color:white;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image:url(file:///C|/Users/SAHIL%20DEVELOPER/Desktop/startbootstrap-full-slider-gh-pages/images/live_bg_image.jpg);
+}
+
+
+
+
+
+.border_btm{
+	border-bottom: 1px solid #284684;
+	padding-bottom:15px;
+}
+
+.date{
+	background-color:#1b2550;
+	text-align:center;
+	border-radius:5px;
+}
+
+.date span{
+	color:#fb516e;
+	font-size:20px;
+	letter-spacing:3px;
+}
+
+.date label{
+	color:#ffffff;
+		font-size:20px;
+
+}
+
+.live_image img{
+width:auto;
+height:auto;
+margin-left:-15px;
+border-radius:5%;
+	
+}
+
+
+
+.txt_live span{
+	font-size:25px;
+	font-weight:bold;
+}
+
+.txt_live p{
+	color:#7088ba;
+	padding-top:5px;
+}
+
+p{
+	font-family: 'Roboto', sans-serif;
+
+}
+.places, .timing{
+		font-family: 'Roboto', sans-serif;
+		margin-bottom:10px;
+	}
+	
+	
+.timing span{
+	color:#53c56f;
+}
+
+	
+	
+.fa.fa-clock-o{
+	font-size: 24px;
+    margin-left: 6px;
+    margin-right: 10px;
+}
+
+
+button.btn_chnges{
+	border: 0.5px solid white;
+	background:transparent;
+	padding:15px;
+	color:white;
+	margin-top:5px;
+	
+}
+
+button.btn_chnges:hover{
+	background:#032c9e;
+	border:none;
+}
+
+.live_details a{
+	color:white;
+	text-decoration:none;
+	
+}
+
+.live_details p{
+	
+padding:20px 0;	
+}
+
+/*.gallery{
+	margin-bottom:10px;
+}
+
+.gallery img{
+	width:100%;
+	margin-bottom:50px;
+}
+
+
+.gallery a{
+	display: block;
+	overflow: hidden;
+}
+.gallery a img{
+	display: block;
+	transform: scale3d(1, 1, 1);
+	transition: all 0.3s;
+}
+.gallery a:hover img{
+	transform: scale3d(1.1, 1.1, 1.1);
+}*/
+
+/* FANCY COLLAPSE PANEL STYLES */
+a:hover,a:focus{
+    text-decoration: none;
+    outline: none;
+}
+#accordion .panel{
+    border: none;
+    border-radius: 5px;
+    box-shadow: none;
+    margin-bottom: 10px;
+    background: transparent;
+}
+#accordion .panel-heading{
+    padding: 0;
+    border: none;
+    border-radius: 5px;
+    background: transparent;
+    position: relative;
+}
+#accordion .panel-title a{
+    display: block;
+    padding: 20px 30px;
+    margin: 0;
+    background: rgba(0,0,0,0.4);
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+}
+
+#accordion .panel-body{
+    padding: 20px 30px;
+    background-color:#032c9e;
+    font-size: 15px;
+    color: #fff;
+    line-height: 28px;
+    letter-spacing: 1px;
+    border-top: none;
+    border-radius: 5px;
+}
+
+
+.clpse{
+	position:relative;
+  color:white;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image:url(file:///C|/Users/SAHIL%20DEVELOPER/Desktop/startbootstrap-full-slider-gh-pages/images/gayak.jpg);
+  padding:100px 0;
+
+	
+}
+
+.accomo span{
+	font-weight:700;
+	letter-spacing:5px;
+}
+
+.accomo H1{
+	padding-bottom:20PX;
+}
+
+
+.accomo p{
+	font-weight:300;
+	}
+
+
+.footer{
+	position:relative;
+  color:white;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image:url(file:///C|/Users/SAHIL%20DEVELOPER/Desktop/startbootstrap-full-slider-gh-pages/images/footer_bg.jpg);
+  padding:100px 0;
+}
+
+
+form {
+position:relative;
+width:305px;
+margin:15px auto 0 auto;
+text-align:center;
+
+}
+
+input {
+width:270px;
+height:42px;
+margin-top:25px;
+background-color:transparent;
+border:none;
+border-bottom:1px solid white;
+color:white;
+outline:medium none;
+
+}
+
+
+
+::placeholder {
+  color: white;
+}
+
+button.footer_btn{
+	background:transparent;
+	border:1px solid white;
+	color:#fff;
+	outline:medium none;
+	cursor:pointer;
+	padding:20px;
+	margin-top:25px;
+
+}
+
+.footer_logo{
+	text-align:center;
+	margin-top:100px;
+	margin-bottom:50px;
+}
+
+.foot_menu{
+	text-align:center;
+	
+}
+
+.foot_menu a{
+	color:#fff;
+	text-decoration:none;
+}
+
+.foot_menu ul li {
+	display:inline-block;
+	padding:0 20px;
+}
+
+.ttl h3{
+	padding-top:50px;
+	padding-bottom:100px;
+	font-weight: bold;
+    font-size: 36px;
+	
+}
+..ttl img {
+	width:100%;
+}
+
+.vd {
+	padding-top:20px;
+}
+
+.details{
+	padding-bottom:20px;
+	
+	
+}
+
+.details h3{
+	padding-top:50px;
+	padding-bottom:20px;
+	font-weight: bold;
+	
+	}
+
+.details p{
+	font-weight:300;
+	padding-top:20px;
+	color:#9fa2af;
+}
+
+.details span{
+	font-weight:600;
+	
+	
+}
+ button.r_m{
+	color:#032c9e;
+	background:transparent;
+	font-weight:bold;
+	border-left: 2px solid #032c9e;
+ }
+ 
+.ct_text{
+		color:#9fa2af;
+		padding-top:50px;
+		padding-bottom:50px;
+}
+
+
+.tckts_img{
+	text-align:center;
+	margin-top:20px;
+}
+
+
+
+
+
+
+
+
+
+
+.ct_text div{
+	border-left: 2px solid #33cbcc;
+	padding-left:30px;
+	font-size:18px;
+	font-style:italic;
+	margin-bottom:50px;
+	
+}
+
+.ct_text span{
+	color:#032c9e;
+	padding-left:20px;
+	font-weight:700;
+}
+
+.foot_btn{
+	text-align:center;
+	padding-top:50px;
+	padding-bottom:50px;
+}
+
+.foot_btn button{
+	text-align:center;
+	background-color:#032c9e;
+	color:#fff;
+    font-weight:500;
+	
+}
+
+.foot_btn button:hover{
+	background-color:transparent;
+	color:black;
+	border:1px solid black;
+	    font-weight:500;
+
+
+}
+
+.first_blog{
+	padding:100px 0;
+	padding-left:10px;
+}
+
+.blog_txt h3{
+	color:#032c9e;
+}
+
+.blog_txt label{
+	color:#032c9e;
+	letter-spacing:2px;
+	font-weight:600;
+}
+
+.share_button i{
+	padding-right:15px;
+}
+
+
+.share_button button{
+padding:10px;	
+margin:10px 8px 20px 0;
+background-color:transparent;
+border:1px solid #7c8092;
+color:#7c8092;
+}
+ /*carausel */
+.col-md-4{
+  display: inline-block;
+  margin-left:-10px;
+}
+.col-md-4 img{
+  width:100%;
+  height:auto;
+}
+
+body .carousel-control-prev-icon,
+body .carousel-indicators li,
+body .carousel-control-next-icon{
+  background-color:#000;
+}
+
+span.carousel-control-prev-icon {
+ position: relative;
+ bottom: 360px;
+left:800px;
+
+}
+
+span.carousel-control-next-icon {
+ position: relative;
+    bottom: 360px;
+    right: 110px;
+}
+
+ /*carausel end */
+
+
+.carosel span{
+	color:#1b2550;
+	font-size:24px;
+	font-weight:600;
+}
+
+.youtube_videos{
+	padding:20px 0;
+}
+
+.bottom{
+	border-bottom: 1px solid #e5e5e5;
+	padding:10px;
+}
+
+
+.bottom label{
+	font-weight:600;
+	color:black;
+}
+
+.bottom span{
+	font-weight:500;
+	color:#7188ad;
+}
+
+
+.all_button{
+	text-align:center;
+	margin:30px 0;
+	
+}
+
+.mrgn_ryt{
+margin-right:-54px;
+margin-top:100px;	
+}
+
+.all_button button{
+	padding:20px 100px ;
+	background:transparent;
+	border: 1px solid #ed5562;
+	color:#ed5562;
+	font-weight:500;
+	letter-spacing:3px;
+	
+}
+
+
+.all_button button:hover{
+	color:black;
+	border: 1px solid black;
+}
+
+
+.youtube_videos{
+	position:relative;
+  color:white;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image:url(file:///C|/Users/SAHIL%20DEVELOPER/Desktop/startbootstrap-full-slider-gh-pages/images/background_album.jpg);
+}
+
+.background{
+	background-color:white;
+	margin-top:100px;
+}
+
+
+
+.mimusic_gallery {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+    cursor:pointer;
+	padding-bottom:10px;
+
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.mimusic_gallery:hover .image {
+  opacity: 0.9;
+}
+
+.mimusic_gallery:hover .middle {
+  opacity: 1;
+}
+
+.icon .fa.fa-play-circle-o{
+	color:#fff;
+	font-size:60px;
+}
+
+.mi_events{
+	padding:0 0 80px 0;
+	position:relative;
+  color:white;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image:url(file:///C|/Users/SAHIL%20DEVELOPER/Desktop/startbootstrap-full-slider-gh-pages/images/background_album.jpg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 991px) {
+span.carousel-control-prev-icon {
+ position: relative;
+ bottom: 350px;
+left:200px;
+
+}
+
+span.carousel-control-next-icon {
+ position: relative;
+    bottom: 350px;
+    right: 110px;
+}
+
+.details {
+    padding-bottom: 25px;
+}
+
+
+
+
+
+}
+
+@media only screen and (max-width: 440px) {
+.details {
+    padding-bottom: 50px;
+}
+	
+}
+
+
+@media only screen and (max-width: 535px) {
+.youtube_videos iframe{
+	width:100%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
