@@ -337,7 +337,7 @@ a:hover,a:focus{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image:url(file:///C|/Users/SAHIL%20DEVELOPER/Desktop/startbootstrap-full-slider-gh-pages/images/gayak.jpg);
+  background-image:url(../images/gayak.jpg);
   padding:100px 0;
 
 	
@@ -365,7 +365,7 @@ a:hover,a:focus{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image:url(file:///C|/Users/SAHIL%20DEVELOPER/Desktop/startbootstrap-full-slider-gh-pages/images/footer_bg.jpg);
+  background-image:url(../images/footer_bg.jpg);
   padding:100px 0;
 }
 
